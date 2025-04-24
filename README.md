@@ -6,4 +6,3 @@
 > - Câmera Ov2640
 > - Módulo Mb
 - INMP441 
-- 
