@@ -44,3 +44,27 @@ String enviarParaSTT(String audioBase64) {
 
   return "Teste 123, responda '5'";
 }
+
+
+
+String enviarParaGPT(String texto) {
+  HTTPClient http;
+  http.begin("https://api.openai.com/v1/chat/completions");
+  http.addHeader("Authorization", openai_token);
+  http.addHeader("Content-Type", "application/json");
+
+  String payload = "{\"model\": \"gpt-3.5-turbo\",\"messages\": [{\"role\": \"user\", \"content\": \"" + texto + "\"}]}";
+  http.POST(payload);
+  String resposta = http.getString();
+
+  DynamicJsonDocument doc(1024);
+  deserializeJson(doc, resposta);
+  return doc["choices"][0]["message"]["content"].as<String>();
+}
+
+void tocarAudioDaResposta(String texto) {
+
+  return "Por enquanto nada";
+  
+
+}
