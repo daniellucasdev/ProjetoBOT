@@ -1,2 +1,9 @@
 # ProjetoEitGi
-Projeto de um robô baseado em ESP32 conectado remotamente á API do gemini e interpolado em nuvem para um TTS, capaz de responder perguntas em tempo real.
+- Esse é um robô construído com a finalidade de ser um assistente para meus códigos. Aqui terá seu Software, sua lista de Hardwares e outras coisas do tipo.
+
+# Componentes
+> - Esp32 Cam Wifi Bluetooth
+> - Câmera Ov2640
+> - Módulo Mb
+- INMP441 
+- 
