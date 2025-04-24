@@ -8,3 +8,7 @@
 
 - INMP441 (microfones)
 - DFPlayer (autofalante)
+
+# Diagrama básico
+
+![image](https://github.com/user-attachments/assets/412a4004-f038-470a-9887-d06cfdd3c63f)
