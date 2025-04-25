@@ -1,5 +1,5 @@
 # ProjetoBOT
-- Esse é um robô construído com a finalidade de ser um assistente para meus códigos. Aqui terá seu Software, sua lista de Hardwares e outras coisas do tipo.
+- Esse é um robô construído com a finalidade de ser um assistente físico e inteligente para meus códigos, substituindo o pato de borracha no método "Rubber Duck Programming" por um robô conectado á inteligencia artifical capaz de me dar opiniões em tempo real sobre meu código. Aqui terá seu Software, sua lista de Hardwares e outras coisas do tipo.
 
 # Componentes
 - Esp32 CWB (placa microcontroladora na versão que comporta os módulos precussores)
